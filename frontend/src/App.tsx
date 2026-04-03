@@ -77,9 +77,6 @@ export default function App() {
             {isFetchingNextPage && (
               <p className="loading-text">Loading more…</p>
             )}
-            {!hasNextPage && allTasks.length > 0 && (
-              <p className="end-of-list">All tasks loaded</p>
-            )}
           </div>
         </section>
       </main>
